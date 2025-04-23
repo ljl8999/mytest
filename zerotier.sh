@@ -26,7 +26,7 @@ systemctl enable zerotier-one
 systemctl start zerotier-one
 
 # 加入 ZeroTier 网络
-NETWORK_ID="你自己的 zeotier ID"
+NETWORK_ID="83048a063215b7a0"
 echo "🔗 加入 ZeroTier 网络：$NETWORK_ID..."
 zerotier-cli join "$NETWORK_ID"
 
